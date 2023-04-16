@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class HomeLoanTest extends BaseClass {
 	
 	
-	@Test(dependsOnMethods = "test2")
+	@Test
 	public void test1() {
 		System.out.println("Inside home loan test 1");
 	}
